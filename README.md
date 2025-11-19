@@ -101,26 +101,6 @@ The dataset contains annotated images of crops and weeds in agricultural setting
    - `04_yolov11_varifocal_loss_ablation.ipynb` for loss function studies
 4. **Inference**: Use `05_model_inference_and_visualization-puffer.ipynb` for model evaluation
 
-## Project Structure
-
-```
-crop-weed-detection-v3/
-├── 01_data_augmentation.ipynb              # Data augmentation pipeline
-├── 02_data_preprocessing_ablation.ipynb    # Preprocessing optimization
-├── 03_yolov11_SimAM_ablation.ipynb        # SimAM attention mechanism
-├── 04_yolov11_varifocal_loss_ablation.ipynb # Varifocal loss implementation
-├── 05_model_inference_and_visualization-puffer.ipynb # Inference & visualization
-├── requirement.txt                         # Dependencies
-├── yolo11n.pt                             # Pre-trained YOLOv11 model
-└── runs/                                  # Training outputs and model weights
-    ├── black bean_yolo11n_augmented.pt    # Augmented dataset model
-    ├── black bean_yolo11n_original.pt     # Original dataset model
-    ├── black bean_yolo11n_simam.pt        # SimAM enhanced model
-    ├── Black bean_augmented/              # Augmented training results
-    ├── Black bean_original/               # Original training results
-    └── Black bean_simam/                  # SimAM training results
-```
-
 ## Research Contributions
 
 ### Novel Attention Mechanism Integration
@@ -169,5 +149,6 @@ For questions, collaborations, or support, please reach out to Team CropGuard me
 - Mir Ali Naqi Talpur - ID: 125001
 
 ---
+
 
 *This project is part of ongoing research in computer vision applications for precision agriculture and sustainable farming practices.*
