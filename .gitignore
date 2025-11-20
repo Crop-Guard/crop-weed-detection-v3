@@ -6,8 +6,8 @@ Weed-crop RGB dataset
 results/
 outputs/
 experiments/
-*.png
-*.jpg
+#*.png
+#*.jpg
 *.jpeg
 *.csv
 *.json
